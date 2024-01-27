@@ -30,8 +30,28 @@ function addToHello(name: string): string{
     return `Hello ${name}`
 }
 
-async function getDatabase(id: number): Promise<string> {
+async function getDatabase(id: number): Promise <string> {
     return "Diego";
 }
 
-console.log(addToHello("Diego"))
+//console.log(addToHello("Diego"))
+
+type robot = {
+    id: number | string;
+    name: string;
+};
+
+const bot: robot = {
+    id: "1",
+    name: "Megaman"
+};
+
+const bot1: robot = {
+    id: 2,
+    name: "Doomsday"
+}
+
+console.log((bot1.id = 3));
+
+
+
