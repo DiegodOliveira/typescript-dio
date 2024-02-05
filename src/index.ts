@@ -23,3 +23,7 @@ function CallToPhone(phone: string | number): number| string{
 }
 
 
+async function DataBase(id: number): Promise<string> {
+    return "Diego"
+}
+
