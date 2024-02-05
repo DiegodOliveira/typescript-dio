@@ -17,3 +17,9 @@ function addNumber(x: number, y: number): number{
 }
 
 let soma: number = addNumber(4,7);
+
+function CallToPhone(phone: string | number): number| string{
+    return phone;
+}
+
+
